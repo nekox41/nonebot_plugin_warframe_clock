@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "nonebot2_plugin_warframe_clock"
+name = "nonebot_plugin_warframe_clock"
 version = "1.0"
 description = ""
 authors = ["Aa <2272613209@qq.com>"]

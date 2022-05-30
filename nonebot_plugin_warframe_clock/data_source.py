@@ -51,7 +51,7 @@ class wfClock():
         timeImage = BytesIO()
         img = Image.open(cls.__file_path__ / '夜灵背景.png')
         draw = ImageDraw.ImageDraw(img)
-        tfont = ImageFont.truetype(cls.__file_path__ / 'font1.ttf', 55)
+        tfont = ImageFont.truetype(f'{cls.__file_path__}/font1.ttf', 55)
         textW, textH = draw.textsize(stateStr, tfont)
         draw.text(((800-textW)/2, (368-textH)/2),
                   stateStr, font=tfont, align="center")
@@ -71,7 +71,7 @@ class wfClock():
         earthImage = BytesIO()
         img = Image.open(cls.__file_path__ / '时间背景.png')
         draw = ImageDraw.ImageDraw(img)
-        tfont = ImageFont.truetype(cls.__file_path__ / 'font1.ttf', 28)
+        tfont = ImageFont.truetype(f'{cls.__file_path__}/font1.ttf', 28)
         textW, textH = draw.textsize(earthState, tfont)
         draw.text(((400-textW)/2, (400-textH)/2),
                   earthState, font=tfont, align="center")
@@ -97,7 +97,7 @@ class wfClock():
         vallisImage = BytesIO()
         img = Image.open(cls.__file_path__ / '时间背景.png')
         draw = ImageDraw.ImageDraw(img)
-        tfont = ImageFont.truetype(cls.__file_path__ / 'font1.ttf', 28)
+        tfont = ImageFont.truetype(f'{cls.__file_path__}/font1.ttf', 28)
         textW, textH = draw.textsize(stateStr, tfont)
         draw.text(((400-textW)/2, (400-textH)/2),
                   stateStr, font=tfont, align="center")
@@ -131,7 +131,7 @@ class wfClock():
         timeImage = BytesIO()
         img = Image.open(cls.__file_path__ / '时间背景.png')
         draw = ImageDraw.ImageDraw(img)
-        tfont = ImageFont.truetype(cls.__file_path__ / 'font1.ttf', 28)
+        tfont = ImageFont.truetype(f'{cls.__file_path__}/font1.ttf', 28)
         textW, textH = draw.textsize(stateStr, tfont)
         draw.text(((400-textW)/2, (400-textH)/2),
                   stateStr, font=tfont, align="center")

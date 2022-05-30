@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "nonebot_plugin_warframe_clock"
-version = "1.0"
-description = ""
+version = "1.1"
+description = "nonebot2插件，查询Warframe开放地图时间。"
 authors = ["Aa <2272613209@qq.com>"]
 license = "MIT"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"

@@ -20,6 +20,22 @@
 </p>
 </div>
 
+# 安装
+使用pip：
+```
+pip install nonebot-plugin-warframe-clock
+```
+>pip安装完成后需要手动加载。
+>1. 在bot.py中添加： 
+```
+nonebot.load_plugin("nonebot_plugin_warframe_clock")
+```
+>2. 在pyproject.toml中添加：
+```
+[tool.nonebot]
+plugins = ["nonebot_plugin_warframe_clock"]
+```
+
 # 功能
 <details>
 <summary>夜灵平野</summary>

@@ -21,6 +21,12 @@
 </div>
 
 # 安装
+
+使用nb-cli(推荐)：
+```
+nb plugin install nonebot-plugin-warframe-clock
+```
+
 使用pip：
 ```
 pip install nonebot-plugin-warframe-clock
